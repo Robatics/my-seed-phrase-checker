@@ -75,7 +75,7 @@ async function main() {
   const results = [];
 
   for (const seed of seeds) {
-    console.log(`🔹 Checking seed: ${seed}`);
+    console.log(`🔹 Checking the seed: ${seed}`);
     const result = await checkSeed(seed);
     results.push(result);
   }
